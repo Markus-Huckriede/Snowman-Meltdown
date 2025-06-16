@@ -20,6 +20,7 @@ def display_game_state(mistakes, secret_word, guessed_letters):
 def get_random_word():
     return WORDS[random.randint(0, len(WORDS) - 1)]
 
+
 def check_win(secret_word, guessed_letters):
     return all(letter in guessed_letters for letter in secret_word)
 
