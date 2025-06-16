@@ -1,4 +1,3 @@
-# Snowman ASCII Art stages
 STAGES = [
         # Stage 0: Full snowman
         """
