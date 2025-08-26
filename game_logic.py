@@ -72,5 +72,5 @@ def play_game():
     else:
         print(STAGES[-1])
         print(f"Snowman melted! The word was: {secret_word}")
-        new_game()
+    new_game()
 
